@@ -57,18 +57,20 @@ const AddTodoForm = () => {
           value={creator}
           onChange={(e) => setCreator(e.target.value)} // Actualiza el estado para creator
         />
-        <label>
-          <input
-            type="checkbox"
-            checked={isCompleted}
-            onChange={(e) => setIsCompleted(e.target.checked)} // Actualiza el estado para isCompleted
-          />
-          ¿Tarea Completa?
-        </label>
+        <div className={classes.AccionesForm}>
+          <label>
+            <input
+              type="checkbox"
+              checked={isCompleted}
+              onChange={(e) => setIsCompleted(e.target.checked)} // Actualiza el estado para isCompleted
+            />
+            Tarea Completa
+          </label>
 
-        <button className={classes.button} onClick={handleAddTodo}>
-          Agrega tu tarea
-        </button>
+          <button className={classes.button} onClick={handleAddTodo}>
+            Agrega tu tarea
+          </button>
+        </div>
       </div>
     </div>
   );

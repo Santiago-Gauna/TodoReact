@@ -25,7 +25,7 @@ const TodoList = () => {
       );
       setFilter("all");
     } catch (error) {
-      console.log("Hubo un problema al eliminar todas las tareas:", error);
+      console.log("There was a problem deleting all tasks:", error);
     }
   };
 

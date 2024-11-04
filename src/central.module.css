@@ -1,6 +1,6 @@
 .title {
   font-size: 2.5rem;
-  color: #ff4500;
+  color: #004d74;
   text-align: center;
   margin: 20px 0;
   font-family: "Verdana", sans-serif;
@@ -10,8 +10,7 @@
   transition: transform 0.3s ease, color 0.3s ease;
 }
 .title:hover {
-  color: #ff6347; /* Cambia de tono al pasar el mouse */
-  transform: scale(1.05); /* Aumenta ligeramente al pasar el mouse */
+  color: #006da4; /* Cambia de tono al pasar el mouse */
 }
 
 .subtitle-large {
@@ -30,7 +29,8 @@
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #f9f9f9;
+  background-color: #f0f3fa;
+  border-radius: 0.7rem;
 }
 
 .adddiv {
@@ -41,7 +41,7 @@
   width: 100%;
   padding: 12px;
   margin: 8px 0;
-  border: 2px solid #ff4500;
+  border: 2px solid #395886;
   border-radius: 5px;
   font-size: 1rem;
   color: #333;
@@ -52,12 +52,12 @@
 }
 
 .input:focus {
-  border-color: #ff6347;
+  border-color: #d5deef;
 }
 /* Estilo del botón */
 .button {
   padding: 15px;
-  background-color: #ff4500;
+  background-color: #8aaee0;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -68,14 +68,14 @@
 }
 
 .button:hover {
-  background-color: #ff6347;
+  background-color: #b1c9ef;
 }
 /* hasta aca vamos bien */
 
 /* Estilos para la lista de tareas */
 .todolist {
   background-color: #f9f9f9; /* Fondo claro */
-  border: 2px solid #ff6347; /* Borde en un tono más claro */
+  border: 2px solid #395886; /* Borde en un tono más claro */
   border-radius: 10px; /* Bordes redondeados */
   padding: 20px; /* Espaciado interno */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -85,18 +85,20 @@
 }
 /* Estilo para los botones */
 .tbutton {
-  background-color: #ff4500; /* Color de fondo que combina */
+  background-color: #8aaee0; /* Color de fondo que combina */
   color: white; /* Color del texto */
   border: none; /* Sin borde */
+  font-size: 1rem;
+  font-weight: 600;
   border-radius: 5px; /* Bordes redondeados */
-  padding: 10px 15px; /* Espaciado interno */
+  padding: 20px 20px; /* Espaciado interno */
   cursor: pointer; /* Cambiar cursor al pasar el mouse */
   margin: 5px; /* Espaciado entre botones */
   transition: background-color 0.3s; /* Transición de color */
 }
 
 .tbutton:hover {
-  background-color: #ff6347; /* Cambio de color al pasar el mouse */
+  background-color: #b1c9ef; /* Cambio de color al pasar el mouse */
 }
 
 .div {
@@ -110,7 +112,7 @@
   justify-content: space-between;
   width: 100%;
   background-color: #f9f9f9; /* Fondo claro */
-  border: 2px solid #ff6347; /* Borde en un tono más claro */
+  border: 2px solid #395886; /* Borde en un tono más claro */
   border-radius: 10px; /* Bordes redondeados */
   padding: 20px; /* Espaciado interno */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -153,7 +155,7 @@
 .closeButton {
   margin-top: 10px;
   padding: 8px 12px;
-  background-color: #ff4500;
+  background-color: #8aaee0;
   color: white;
   border: none;
   border-radius: 5px;
@@ -161,5 +163,12 @@
 }
 
 .closeButton:hover {
-  background-color: #ff6347;
+  background-color: #b1c9ef;
+}
+
+.AccionesForm {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
