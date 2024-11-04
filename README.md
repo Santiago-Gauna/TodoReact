@@ -11,8 +11,11 @@ Synchronization with JSON Server: The application uses JSON Server to simulate a
 
 # Technologies used
 JavaScript: To program the logic and functionality of the application.
+
 React: To build the user interface of the application.
+
 CSS Modules: To manage the styles of the components in a modular way.
+
 JSON Server: As a simulated server to store and manage the tasks.
 
 # Project configuration
