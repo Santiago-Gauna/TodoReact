@@ -4,9 +4,13 @@ Welcome to To-Do List App! This project is a to-do list app created in JavaScrip
 
 # Features
 Add tasks: Create new tasks with a custom name and description.
+
 Filter tasks: View all your tasks, only completed tasks, or only pending tasks.
+
 Delete tasks: Delete individual tasks or all tasks at once.
+
 Details in modal: Click on a task to see more details such as description and creator.
+
 Synchronization with JSON Server: The application uses JSON Server to simulate a backend and store tasks in a JSON file.
 
 # Technologies used
